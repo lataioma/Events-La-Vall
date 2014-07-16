@@ -15,16 +15,49 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".Inicio"
-            android:label="@string/app_name" 
-            android:uiOptions="splitActionBarWhenNarrow">
-            	<meta-data
-            	   android:name="android.support.UI_OPTIONS"
-                   android:value="splitActionBarWhenNarrow" />
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="es.pymeapps.eventosdeportivos.informacion.Informacion"
+            android:label="@string/title_activity_informacion"
+            android:parentActivityName=".Inicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.pymeapps.eventosdeportivos.Inicio" />
+        </activity>
+        <activity
+            android:name="es.pymeapps.eventosdeportivos.eventos.Eventos"
+            android:label="@string/title_activity_eventos"
+            android:parentActivityName=".Inicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.pymeapps.eventosdeportivos.Inicio" />
+        </activity>
+        <activity
+            android:name="es.pymeapps.eventosdeportivos.servicios.Servicios"
+            android:label="@string/title_activity_servicios"
+            android:parentActivityName=".Inicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.pymeapps.eventosdeportivos.Inicio" />
+        </activity>
+        <activity
+            android:name="es.pymeapps.eventosdeportivos.noticias.Noticias"
+            android:label="@string/title_activity_noticias"
+            android:parentActivityName=".Inicio" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.pymeapps.eventosdeportivos.Inicio" />
         </activity>
     </application>
 

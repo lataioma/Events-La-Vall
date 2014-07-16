@@ -8,5 +8,9 @@
     <string name="txtbtn_inici_eventos">EVENTOS</string>
     <string name="txtbtn_inici_noticias">NOTICIAS</string>
     <string name="txtbtn_inici_servicios">SERVICIOS</string>
+    <string name="title_activity_informacion">Informacion</string>
+    <string name="title_activity_eventos">Eventos</string>
+    <string name="title_activity_servicios">Servicios</string>
+    <string name="title_activity_noticias">Noticias</string>
 
 </resources>

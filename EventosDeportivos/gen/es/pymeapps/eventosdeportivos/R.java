@@ -16,6 +16,11 @@ public final class R {
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
+
+         Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
+    
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
@@ -43,15 +48,27 @@ public final class R {
         public static final int textView3=0x7f090007;
     }
     public static final class layout {
-        public static final int activity_inicio=0x7f030000;
+        public static final int activity_eventos=0x7f030000;
+        public static final int activity_informacion=0x7f030001;
+        public static final int activity_inicio=0x7f030002;
+        public static final int activity_noticias=0x7f030003;
+        public static final int activity_servicios=0x7f030004;
     }
     public static final class menu {
-        public static final int inicio=0x7f080000;
+        public static final int eventos=0x7f080000;
+        public static final int informacion=0x7f080001;
+        public static final int inicio=0x7f080002;
+        public static final int noticias=0x7f080003;
+        public static final int servicios=0x7f080004;
     }
     public static final class string {
         public static final int action_settings=0x7f060002;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060001;
+        public static final int title_activity_eventos=0x7f060008;
+        public static final int title_activity_informacion=0x7f060007;
+        public static final int title_activity_noticias=0x7f06000a;
+        public static final int title_activity_servicios=0x7f060009;
         public static final int txtbtn_inici_eventos=0x7f060004;
         public static final int txtbtn_inici_informacion=0x7f060003;
         public static final int txtbtn_inici_noticias=0x7f060005;
