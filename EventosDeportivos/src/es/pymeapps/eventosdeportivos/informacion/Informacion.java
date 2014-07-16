@@ -1,8 +1,6 @@
 package es.pymeapps.eventosdeportivos.informacion;
 
 import es.pymeapps.eventosdeportivos.R;
-import es.pymeapps.eventosdeportivos.R.layout;
-import es.pymeapps.eventosdeportivos.R.menu;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
