@@ -1,11 +1,9 @@
 package es.pymeapps.eventosdeportivos.noticias;
 
 import es.pymeapps.eventosdeportivos.R;
-import es.pymeapps.eventosdeportivos.R.id;
-import es.pymeapps.eventosdeportivos.R.layout;
-import es.pymeapps.eventosdeportivos.R.menu;
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -15,8 +13,16 @@ public class Noticias extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_noticias);
+		// Show the Up button in the action bar.
+				setupActionBar();
 	}
 
+	
+	private void setupActionBar() {
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+		
+	}
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -26,11 +32,16 @@ public class Noticias extends Activity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+			// This ID represents the Home or Up button. In the case of this
+			// activity, the Up button is shown. Use NavUtils to allow users
+			// to navigate up one level in the application structure. For
+			// more details, see the Navigation pattern on Android Design:
+			//
+			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
+			//
+			NavUtils.navigateUpFromSameTask(this);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);

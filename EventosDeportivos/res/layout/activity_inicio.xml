@@ -8,7 +8,7 @@
     tools:context="es.pymeapps.eventosdeportivos.Inicio" >
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/imgbtn_inicio_informacion"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.3"
@@ -19,6 +19,7 @@
         android:src="@drawable/img_informacion" />
 
     <TextView
+        android:id="@+id/txtbtn_inicio_informacion"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".7"
@@ -28,7 +29,7 @@
         android:textSize="@dimen/letra_mediana" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgbtn_inicio_eventos"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.3"
@@ -38,7 +39,7 @@
         android:src="@drawable/img_eventos" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/txtbtn_inicio_eventos"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".7"
@@ -47,7 +48,7 @@
         android:textSize="@dimen/letra_mediana" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgbtn_inicio_noticias"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.3"
@@ -58,7 +59,7 @@
         android:src="@drawable/img_noticias" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtbtn_inicio_noticias"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".7"
@@ -68,7 +69,7 @@
         android:textSize="@dimen/letra_mediana" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgbtn_inicio_servicios"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.3"
@@ -78,7 +79,7 @@
         android:src="@drawable/img_servicios" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txtbtn_inicio_servicios"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".7"

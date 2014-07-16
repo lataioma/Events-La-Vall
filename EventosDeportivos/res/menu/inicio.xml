@@ -4,8 +4,30 @@
 
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
+        
+        android:icon="@android:drawable/ic_dialog_map"
+        android:showAsAction="always"
+        android:title="@string/title_activity_eventos"/>
+    <item
+        android:id="@+id/action_settings2"
+        
+        android:icon="@android:drawable/ic_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/title_activity_noticias"/>
+    <item
+        android:id="@+id/action_settings3"
+        
+        android:showAsAction="ifRoom"
         android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_settings5"
+        
+        android:showAsAction="ifRoom"
+        android:title="@string/title_activity_servicios"/>
+    <item
+        android:id="@+id/action_settings6"
+        
+        android:showAsAction="ifRoom"
+        android:title="@string/title_activity_noticias"/>
 
 </menu>
